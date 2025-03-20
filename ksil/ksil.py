@@ -9,7 +9,7 @@ from joblib import Parallel, delayed
 class KSil:
     """
     K-Sil Clustering Algorithm
-    (Silhouette-Guided Clustering via Weighted K-Means)
+    (Silhouette-Guided Weighted K-Means Clustering)
 
     Parameters
     ----------
