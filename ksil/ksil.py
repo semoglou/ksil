@@ -11,15 +11,6 @@ class KSil:
     K-Sil Clustering Algorithm
     (Silhouette-Guided Clustering via Weighted K-Means)
 
-    Dependencies: (numpy, pandas, scikit-learn, scipy, collections, joblib)
-        >>> import numpy as np
-        >>> import pandas as pd
-        >>> from sklearn.cluster import KMeans
-        >>> from sklearn.metrics import silhouette_samples, pairwise_distances
-        >>> from scipy.spatial.distance import cdist
-        >>> from collections import Counter
-        >>> from joblib import Parallel, delayed
-
     Parameters
     ----------
 
