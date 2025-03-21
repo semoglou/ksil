@@ -16,6 +16,6 @@ setup(
     url="https://github.com/semoglou/ksil",
     author="Angelos Semoglou",
     author_email="a.semoglou@outlook.com",
-    license="Apache-2.0"
+    license="MIT"
 )
 
