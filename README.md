@@ -138,3 +138,4 @@ Transformed New Data (Distances to Centroids):
 For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](./analysis/functionality.ipynb).
 
 
+<sub>K-Sil · v0.1.0 · Last updated: 05/2025 · MIT License</sub>
