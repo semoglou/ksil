@@ -1,1 +1,1 @@
-# K-Sil Clustering Algorithm
+# K-Sil Clustering
