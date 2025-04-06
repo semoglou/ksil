@@ -1,12 +1,5 @@
 # K-Sil Clustering
 
-## Table of Contents
-
-1. [Overview](#overview)
-2. [Installation](#installation)
-3. [How to Use](#how-to-use)
-4. [Quick Start](#quick-start)
-
 <p align="center">
   <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="550"/>
 </p>
