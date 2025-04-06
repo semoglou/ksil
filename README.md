@@ -15,7 +15,7 @@ You can install **K-Sil** from PyPI:
 pip install ksil
 ```
 
-or directly from the GitHub Repository:
+or directly from the GitHub repository:
 
 ```bash
 pip install git+https://github.com/semoglou/ksil.git
