@@ -5,8 +5,6 @@
 
 ## Parameters
 
-## Parameters
-
 Parameter      |        Type       |     Default  |    Description  
 ---------------------- --------------- ------------ -----------------------------------------------------------------------------------------  
 `n_clusters`           `int`           `3`          Number of clusters to form  
