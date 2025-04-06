@@ -47,8 +47,8 @@ Public **methods** for fitting, prediction, and analysis (all expecting array-li
 | **`fit(X)`**                   | Fit the model on dataset `X`                                      |
 | **`predict(Y)`**               | Predict cluster labels for data points in `Y` based on the fitted model|
 | **`transform(Z)`**             | Transform data points in `Z` to distances to learned centroids     |
-| `fit_predict(X)`           | Fit the model on `X` and return cluster labels                    |
-| `fit_transform(X)`         | Fit the model and transform `X`                                   |
+| **`fit_predict(X)`**           | Fit the model on `X` and return cluster labels                    |
+| **`fit_transform(X)`**         | Fit the model and transform `X`                                   |
 
 ### Results
 After fitting the model, the following **attributes** are available:
