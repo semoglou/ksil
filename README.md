@@ -60,3 +60,27 @@ After fitting the model, the following **attributes** are available:
 | `n_iter_`           | Number of iterations until convergence                          |
 
 ## Quick Start
+```python
+from ksil import KSil
+import numpy as np
+
+# Example dataset
+X = np.array([
+    [1, 2], 
+    [1, 4], 
+    [1, 5], 
+    [2, 8],  
+    [3, 6],  
+    [5, 7] 
+])
+
+ksil = KSil(n_clusters=2, silhouette_objective="macro")
+
+# Fit the model to the dataset and obtain cluster labels
+ksil.fit(X)
+labels = ksil.labels_
+
+# Or directly via labels = KSil(n_clusters=2).fit_predict(X)
+
+
+
