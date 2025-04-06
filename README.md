@@ -129,5 +129,6 @@ Output:
 Predicted Labels for New Data:
 Transformed New Data (Distances to Centroids):
 ```
+For a more detailed example exploring additional aspects such as sampling and approximations, check out the [example notebook](./performance/ksil_example.ipynb).
 
 
