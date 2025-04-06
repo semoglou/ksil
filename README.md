@@ -1,1 +1,1 @@
-# K-Sil: Silhouette-Guided Instance-Weighted K-Means
+# K-Sil Clustering 
