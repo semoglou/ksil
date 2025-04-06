@@ -81,18 +81,18 @@ ksil = KSil(n_clusters=2, silhouette_objective="macro")
 # Fit the model to the dataset
 ksil.fit(X)
 
-# Retrieve the cluster centroids (learned center points of each cluster)
-centroids = ksil.cluster_centers_
-# Use np.array(ksil.cluster_centers_) if you prefer the centroids in NumPy array format
-
 # Retrieve the cluster labels (labels assigned to each data point in X)
 labels = ksil.labels_
 
 # Alternatively, fit the model and get cluster labels in one step
 labels = KSil(n_clusters=2).fit_predict(X)
 
-print(f"Cluster Centroids:\n{centroids}")
+# Retrieve the cluster centroids (learned center points of each cluster)
+centroids = ksil.cluster_centers_
+# Use np.array(ksil.cluster_centers_) if you prefer the centroids in NumPy array format
+
 print(f"Cluster Labels:\n{labels}")
+print(f"Cluster Centroids:\n{centroids}")
 ```
 Output:
 ```
