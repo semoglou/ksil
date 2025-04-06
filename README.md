@@ -3,6 +3,20 @@
   <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="550"/>
 </p>
 
+## Installation
+
+You can install **K-Sil** from PyPI:
+
+```bash
+pip install ksil
+```
+
+or directly from the GitHub Repository:
+
+```bash
+pip install git+https://github.com/semoglou/ksil.git
+```
+
 ## Parameters
 
 | Parameter              | Type            | Default      | Description                                                                   |
@@ -19,18 +33,3 @@
 | `alpha`                | float           | `0.5`        | Macro/micro tradeoff if using `'convex'` objective                            |
 | `tol`                  | float           | `1e-4`       | Convergence threshold based on centroid movement                              |
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` = all cores)                                    |
-
-
-## Installation
-
-You can install **K-Sil** from PyPI:
-
-```bash
-pip install ksil
-```
-
-or directly from the GitHub Repository:
-
-```bash
-pip install git+https://github.com/semoglou/ksil.git
-```
