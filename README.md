@@ -80,7 +80,8 @@ ksil = KSil(n_clusters=2, silhouette_objective="macro")
 ksil.fit(X)
 labels = ksil.labels_
 
-# Or directly via labels = KSil(n_clusters=2).fit_predict(X)
+# Alternatively, fit the model and get cluster labels in one step
+labels = KSil(n_clusters=2).fit_predict(X)
 
 
 
