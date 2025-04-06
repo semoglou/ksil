@@ -139,4 +139,4 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 #
 
-<sub>K-Sil · v0.1.0 · Last updated: 05/2025 · MIT License</sub>
+<sub>K-Sil · v0.1.0 · Last updated: 04/2025 · MIT License</sub>
