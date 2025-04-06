@@ -5,8 +5,6 @@
 
 ## Overview
 
-## How it Works
-
 ## Installation
 
 You can install **K-Sil** from PyPI:
@@ -21,9 +19,11 @@ or directly from the GitHub repository:
 pip install git+https://github.com/semoglou/ksil.git
 ```
 
-## Usage
+## How to Use
 
-## Parameters
+### Parameters
+
+The following parameters can be set when initializing a `KSil` model:
 
 | Parameter              | Type            | Default      | Description                                                                   |
 |------------------------|-----------------|--------------|-------------------------------------------------------------------------------|
@@ -40,4 +40,25 @@ pip install git+https://github.com/semoglou/ksil.git
 | `tol`                  | float           | `1e-4`       | Convergence threshold based on centroid movement                              |
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` = all cores)                                    |
 
-## Outputs 
+### Methods 
+
+Public methods for training, prediction, and analysis:
+
+| Method                     | Description                                                       |
+|----------------------------|-------------------------------------------------------------------|
+| `fit(X)`                   | Train the model on dataset `X`                                    |
+| `predict(Y)`               | Assign cluster labels to new data points                          |
+| `transform(X)`             | Return a distance matrix to centroids                             |
+| `fit_predict(X)`           | Fit and predict in one step                                       |
+| `fit_transform(X)`         | Fit and transform in one step                                     |
+
+
+### Attributes
+
+Available attributes after calling `.fit(X)`:
+
+| Attribute           | Description                                                     |
+|---------------------|-----------------------------------------------------------------|
+| `labels_`           | Final cluster labels assigned to each data point                |
+| `cluster_centers_`  | Learned centroids (as a pandas Series of coordinate lists)      |
+| `n_iter_`           | Number of iterations until convergence                          |
