@@ -60,6 +60,7 @@ After fitting the model, the following **attributes** are available:
 | `n_iter_`           | Number of iterations until convergence                          |
 
 ## Quick Start
+#### Fit K-Sil and Retrieve Cluster Labels & Centroids
 ```python
 from ksil import KSil
 import numpy as np
@@ -89,6 +90,6 @@ labels = ksil.labels_
 
 # Alternatively, fit the model and get cluster labels in one step
 labels = KSil(n_clusters=2).fit_predict(X)
-
+```
 
 
