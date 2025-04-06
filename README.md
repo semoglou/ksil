@@ -38,6 +38,7 @@ The following **parameters** can be set when initializing a `KSil` model:
 | `tol`                  | float           | `1e-4`       | Convergence threshold based on centroid movement                              |
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` = all cores)                                    |
 
+  
 Public **methods** for fitting, prediction, and analysis (all expecting array-like datasets of shape `[n_samples, n_features]`):
 
 | Method                     | Description                                                       |
@@ -48,6 +49,7 @@ Public **methods** for fitting, prediction, and analysis (all expecting array-li
 | `fit_predict(X)`           | Fit the model on `X` and return cluster labels                    |
 | `fit_transform(X)`         | Fit the model and transfrom `X`                                   |
 
+  
 After fitting the model, the following **attributes** are available:
 
 | Attribute           | Description                                                     |
