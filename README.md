@@ -1,2 +1,2 @@
 # K-Sil Clustering
-[gif](demo/ksil_gif.gif)
+![K-SilDemo](demo/ksil_gif.gif)
