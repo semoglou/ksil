@@ -1,1 +1,1 @@
-# k-Sil Clustering Algorithm
+# \emph{K}-Sil Clustering Algorithm
