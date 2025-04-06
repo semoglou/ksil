@@ -21,3 +21,9 @@
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` = all cores)                                    |
 
 
+## Installation
+
+You can install **K-Sil** directly from PyPI:
+
+```bash
+pip install ksil
