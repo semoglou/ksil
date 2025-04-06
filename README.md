@@ -96,14 +96,16 @@ centroids = ksil.cluster_centers_
 # Use np.array(ksil.cluster_centers_) if you prefer the centroids in NumPy array format
 
 print(f"Iterations: {n_iter}")
-print(f"Cluster Labels:\n{labels}")
-print(f"Cluster Centroids:\n{centroids}")
+print(f"Cluster Labels: {labels}")
+print(f"Cluster Centroids:\n {centroids}")
 ```
 Output:
 ```
-Iterations:
-Cluster Centroids:
-Cluster Labels: 
+Iterations: 2
+Cluster Centroids: [0 0 0 1 1 1]
+Cluster Labels:
+0    [1.5, 4.25]
+1    [3.5, 7.5]
 ```
 
 #### Predict Labels and Transform Data
@@ -123,12 +125,14 @@ pred_labels = ksil.predict(new_data)
 transformation = ksil.transform(new_data)
 
 print(f"Predicted Labels for New Data: {pred_labels}")
-print(f"Transformed New Data (Distances to Centroids): {transformation}")
+print(f"Transformed New Data (Distances to Centroids):\n {transformation}")
 ```
 Output:
 ```
-Predicted Labels for New Data:
+Predicted Labels for New Data: [0 1]
 Transformed New Data (Distances to Centroids):
+[[1.3462912  4.74341649]
+ [2.61007663 2.54950976]]
 ```
 For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](./analysis/functionality.ipynb).
 
