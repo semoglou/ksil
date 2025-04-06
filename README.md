@@ -1,2 +1,2 @@
 # K-Sil Clustering
-![K-SilDemo](demo/ksil_gif.gif)
+<img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="400"/>
