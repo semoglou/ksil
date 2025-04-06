@@ -92,7 +92,7 @@ labels = ksil.labels_
 labels = KSil(n_clusters=2).fit_predict(X)
 
 print(f"Cluster Centroids:\n{centroids}")
-print(f"Cluster Labels from fit:\n{labels}")
+print(f"Cluster Labels:\n{labels}")
 ```
 
 #### Predict Labels and Transform Data
