@@ -3,6 +3,10 @@
   <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="550"/>
 </p>
 
+## Overview
+
+## How it Works
+
 ## Installation
 
 You can install **K-Sil** from PyPI:
@@ -35,3 +39,5 @@ pip install git+https://github.com/semoglou/ksil.git
 | `alpha`                | float           | `0.5`        | Macro/micro tradeoff if using `'convex'` objective                            |
 | `tol`                  | float           | `1e-4`       | Convergence threshold based on centroid movement                              |
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` = all cores)                                    |
+
+## Outputs 
