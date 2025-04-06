@@ -42,12 +42,12 @@ The following parameters can be set when initializing a `KSil` model:
 
 ### Methods 
 
-Public methods for training, prediction, and analysis:
+Public methods for fitting, prediction, and analysis:
 
 | Method                     | Description                                                       |
 |----------------------------|-------------------------------------------------------------------|
-| `fit(X)`                   | Train the model on dataset `X`                                    |
-| `predict(Y)`               | Assign cluster labels to new data points                          |
+| `fit(X)`                   | Fit the model on dataset `X`                                      |
+| `predict(Y)`               | Assign cluster labels to new data points based on the fitted model|
 | `transform(X)`             | Return a distance matrix to centroids                             |
 | `fit_predict(X)`           | Fit and predict in one step                                       |
 | `fit_transform(X)`         | Fit and transform in one step                                     |
