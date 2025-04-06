@@ -17,6 +17,8 @@ or directly from the GitHub Repository:
 pip install git+https://github.com/semoglou/ksil.git
 ```
 
+## Usage
+
 ## Parameters
 
 | Parameter              | Type            | Default      | Description                                                                   |
