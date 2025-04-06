@@ -77,9 +77,13 @@ X = np.array([
 # Initialize the K-Sil model
 ksil = KSil(n_clusters=2, silhouette_objective="macro")
 
-# Fit the model to the dataset and obtain cluster centroids and labels
+# Fit the model to the dataset
 ksil.fit(X)
+
+# Retrieve the cluster centroids and labels
 centroids = ksil.cluster_centers_
+# Use np.array(ksil.cluster_centers_) if you prefer the centroids in NumPy array format
+
 labels = ksil.labels_
 
 # Alternatively, fit the model and get cluster labels in one step
