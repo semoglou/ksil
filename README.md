@@ -94,7 +94,7 @@ labels = KSil(n_clusters=2).fit_predict(X)
 
 #### Predict Labels and Transform Data
 ```python
-# Assuming the model has already been fitted in the previous cell
+# Assuming the K-Sil model has already been fitted in the previous cell
 
 # New data for prediction and transformation
 new_data = np.array([
@@ -102,7 +102,7 @@ new_data = np.array([
     [4, 5]
 ])
 
-# Predict the cluster labels for new data points based on the previously fitted model
+# Predict the cluster labels for the new data points based on the fitted model
 pred_labels = ksil.predict(new_data)
 
 # Transform the new data points into distances to the previously learned centroids
