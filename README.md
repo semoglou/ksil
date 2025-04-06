@@ -74,6 +74,7 @@ X = np.array([
     [5, 7] 
 ])
 
+# Initialize the K-Sil model
 ksil = KSil(n_clusters=2, silhouette_objective="macro")
 
 # Fit the model to the dataset and obtain cluster labels
