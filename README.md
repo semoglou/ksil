@@ -1,2 +1,4 @@
 # K-Sil Clustering
-<img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="600"/>
+<p align="center">
+  <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="600"/>
+</p>
