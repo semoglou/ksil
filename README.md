@@ -100,7 +100,7 @@ print(f"Cluster Labels:\n{labels}")
 print(f"Cluster Centroids:\n{centroids}")
 ```
 Output:
-```
+```output
 Iterations:
 Cluster Centroids:
 Cluster Labels: 
