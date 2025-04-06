@@ -23,7 +23,7 @@
 
 ## Installation
 
-You can install **K-Sil** directly from PyPI:
+You can install **K-Sil** from PyPI:
 
 ```bash
 pip install ksil
