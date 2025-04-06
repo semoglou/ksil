@@ -5,7 +5,7 @@
 
 ## Parameters
 
-Parameter      |        Type       |     Default  |    Description  
+Parameter              Type            Default      Description  
 ---------------------- --------------- ------------ -----------------------------------------------------------------------------------------  
 `n_clusters`           `int`           `3`          Number of clusters to form  
 `init_method`          `str`           `'random'`   Centroid initialization: `'random'` or `'k-means++'`  
