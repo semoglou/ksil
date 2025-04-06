@@ -27,3 +27,10 @@ You can install **K-Sil** directly from PyPI:
 
 ```bash
 pip install ksil
+```
+
+Or directly from the GitHub Repository:
+
+```bash
+pip install git+https://github.com/semoglou/ksil.git
+```
