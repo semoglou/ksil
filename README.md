@@ -81,21 +81,26 @@ ksil = KSil(n_clusters=2, silhouette_objective="macro")
 # Fit the model to the dataset
 ksil.fit(X)
 
+# Get the number of iterations the algorithm took to converge
+n_iter = ksil.n_iter_
+
 # Retrieve the cluster labels (labels assigned to each data point in X)
 labels = ksil.labels_
 
 # Alternatively, fit the model and get cluster labels in one step
-labels = KSil(n_clusters=2).fit_predict(X)
+# labels = KSil(n_clusters=2).fit_predict(X)
 
 # Retrieve the cluster centroids (learned center points of each cluster)
 centroids = ksil.cluster_centers_
 # Use np.array(ksil.cluster_centers_) if you prefer the centroids in NumPy array format
 
+print(f"Iterations: {n_iter}")
 print(f"Cluster Labels:\n{labels}")
 print(f"Cluster Centroids:\n{centroids}")
 ```
 Output:
 ```
+Iterations:
 Cluster Centroids:
 Cluster Labels: 
 ```
