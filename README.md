@@ -1,5 +1,5 @@
 # K-Sil Clustering
-K-Sil is a clustering algorithm designed to improve the quality of *k*-means partitions by integrating silhouette-based guidance directly into the centroid update process.
+K-Sil is a centroid-based clustering algorithm designed to improve the quality of *k*-means partitions by integrating silhouette scores directly into the centroid update process.
 Unlike *k*-means, which treats all points equally, K-Sil dynamically weights data points in each iteration based on their silhouette scores through self-tuning, per cluster weighting schemes,
 effectively increasing the influence of well-clustered, high-confidence regions on centroid updates, while suppressing the impact of outliers and noisy or unreliable instances.
 As a result, K-Sil reduces sensitivity to poor centroid initialization and yields clustering partitions that are more resilient to noise, outliers, overlapping groups, and cluster imbalances, and that more accurately capture intrinsic data patterns.
