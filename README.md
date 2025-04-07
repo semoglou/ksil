@@ -1,6 +1,10 @@
 # K-Sil Clustering
 K-Sil is a silhouette-guided refinement of the classic K-Means algorithm that produces more cohesive and well-separated clusters. Unlike standard K-Means, which treats all points equally, K-Sil dynamically weights data points in each iteration based on their silhouette scores through self-tuning, per cluster weighting schemes, effectively increasing the influence of well-clustered, high-confidence regions on centroid updates, while supressing the impact of outliers and noisy or unreliable instances. It supports macro-averaged Silhouette score, micro-averaged, or their combiantion as objective, and leverages objective=aware sampling and scalable silhouette approximations for efficiency. K-Sil offers a principled and robust alternative for high-quality clustering.
 
+
+<p align="center">
+  <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="550"/>
+</p>
 <p align="center">
   <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="550"/>
 </p>
