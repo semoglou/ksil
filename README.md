@@ -3,7 +3,7 @@ K-Sil is a silhouette-guided refinement of the classic K-Means algorithm that pr
 
 
 <p align="center">
-  <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="550"/>
+  <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/>
 </p>
 
 ## Overview
