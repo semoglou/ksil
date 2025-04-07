@@ -152,7 +152,7 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 <p align="center">
   <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
-  <em>Figure 2. Clustering comparison: K-Means (left) vs. K-Sil (right).</em>
+  <em>Figure 2. Clustering comparison: *k*-means (left) vs. K-Sil (right).</em>
 </p>
 
 
