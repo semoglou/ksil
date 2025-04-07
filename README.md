@@ -5,9 +5,6 @@ K-Sil is a silhouette-guided refinement of the classic K-Means algorithm that pr
 <p align="center">
   <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="550"/>
 </p>
-<p align="center">
-  <img src="demo/ksil_gif.gif" alt="K-Sil Demo" width="550"/>
-</p>
 
 ## Overview
 
@@ -143,4 +140,4 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 #
 
-<sub>K-Sil · v0.1.0 · Last updated: 04/2025 · MIT License</sub>
+<sub align="center">K-Sil · v0.1.0 · Last updated: 04/2025 · MIT License</sub>
