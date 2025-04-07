@@ -143,6 +143,16 @@ Transformed New Data (Distances to Centroids):
 ```
 For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](./analysis/functionality.ipynb).
 
+## Clustering Performance
+<p align="center">
+  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="600"/>
+</p>
+
+<p align="center">
+  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="800"/>
+</p>
+
+
 #
 
 <p align="center"><sub>K-Sil Clustering Algorithm · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
