@@ -42,7 +42,7 @@ The following **parameters** can be set when initializing a `KSil` model:
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` for all available cores)                        |
 
 ### Model Functions
-Public **methods** for fitting, prediction, and analysis (all expecting array-like datasets of shape `[n_samples, n_features]`):
+Public **methods** for fitting, prediction, and analysis (expecting array-like datasets `[n_samples, n_features]`):
 
 | Method                     | Description                                                       |
 |----------------------------|-------------------------------------------------------------------|
