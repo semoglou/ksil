@@ -144,12 +144,15 @@ Transformed New Data (Distances to Centroids):
 For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](./analysis/functionality.ipynb).
 
 ## Clustering Performance
+
 <p align="center">
-  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/>
+  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
+  <em>Figure 1. Ground truth structure of the synthetic dataset.</em>
 </p>
 
 <p align="center">
-  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/>
+  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
+  <em>Figure 2. Clustering comparison: K-Means (left) vs. K-Sil (right).</em>
 </p>
 
 
