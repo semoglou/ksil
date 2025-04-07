@@ -140,4 +140,5 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 #
 
-<sub align="center">K-Sil · v0.1.0 · Last updated: 04/2025 · MIT License</sub>
+<p align="center"><sub>K-Sil Clustering Algorithm · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
+
