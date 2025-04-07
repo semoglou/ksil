@@ -145,11 +145,11 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 ## Clustering Performance
 <p align="center">
-  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="600"/>
+  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="400"/>
 </p>
 
 <p align="center">
-  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="800"/>
+  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="700"/>
 </p>
 
 
