@@ -5,7 +5,7 @@ effectively increasing the influence of well-clustered, high-confidence regions 
 As a result, K-Sil reduces sensitivity to poor centroid initialization and yields clustering partitions that are more resilient to noise, outliers, overlapping groups, and cluster imbalances, and that more accurately capture intrinsic data patterns.
 It allows guiding the clustering process based on silhouette objectives: *Macro*-averaged Silhouette (cluster-level), *Micro*-averaged (point-level), or their combination.
 To ensure efficiency, it also leverages objective-aware sampling and scalable silhouette approximations.
-K-Sil offers a principled and robust alternative for high-quality clustering.
+K-Sil offers a principled and robust alternative for high-quality clustering. 
 
 <p align="center">
   <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/>
