@@ -1,7 +1,7 @@
 # K-Sil Clustering
 K-Sil is a centroid-based clustering algorithm designed to improve the quality of *k*-means partitions by integrating silhouette scores directly into the centroid update process.
 Unlike *k*-means, which treats all points equally, K-Sil dynamically weights data points in each iteration based on their silhouette scores through self-tuning, per cluster weighting schemes,
-effectively increasing the influence of well-clustered, high-confidence regions on centroid updates, while suppressing the impact of outliers and noisy or unreliable instances.
+effectively increasing the influence of well-clustered, high-confidence regions on centroid updates, while suppressing the impact of outliers and noisy or unreliable instances. 
 As a result, K-Sil reduces sensitivity to poor centroid initialization and yields clustering partitions that are both more accurate in capturing intrinsic data patterns and more resilient to noise, outliers, overlapping groups, and cluster imbalances.
 It allows guiding the clustering process based on silhouette objectives: *Macro*-averaged Silhouette (cluster-level), *Micro*-averaged (point-level), or their combination.
 To ensure efficiency, it also leverages objective-aware sampling and scalable silhouette approximations.
@@ -147,7 +147,7 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 K-Sil demonstrates consistent and statistically significant improvements over *k*-means in clustering quality,
 as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets.
-Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.  
+Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation. 
 K-Sil’s most substantial improvements occur for the *Macro*-averaged Silhouette score when also configured to prioritize this objective.
 By design, its cluster-centric weighting strategy, which emphasizes well-clustered instances and de-emphasizes uncertain ones within each cluster, 
 naturally aligns with the macro objective’s focus on cluster-level quality.
