@@ -172,7 +172,7 @@ This makes K-Sil particularly effective for detecting subtle patterns, preservin
 </p>
 
 For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
-and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`results/`](analysis/) folder, 
+and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
 particularly [`ksil_performance notebook`](./analysis/ksil_performance.ipynb).
 
 #
