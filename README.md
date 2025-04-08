@@ -149,7 +149,8 @@ K-Sil demonstrates consistent and statistically significant improvements over *k
 as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets. 
 Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.  
 K-Sil’s most substantial improvements occur for the *Macro*-averaged Silhouette score when also configured to prioritize this objective.
-Its per-cluster weighting mechanism amplifies high-confidence points within each cluster, naturally aligning with the *macro* objective’s emphasis on cluster level quality.
+By design, its cluster-centric weighting strategy, which emphasizes well-clustered instances and de-emphasizes uncertain ones within each cluster, 
+naturally aligns with the macro objective’s focus on cluster-level quality.
 This makes K-Sil particularly effective for detecting subtle patterns, preserving minority groups, and ensuring fair representation in heterogeneous data.
 
 <p align="center">
