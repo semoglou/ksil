@@ -147,12 +147,14 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
-  <em>Figure 1. Ground truth structure of the synthetic dataset.</em>
+  <sub><em>Fig 1. Ground truth structure of the synthetic dataset (consisting of six clusters with varying
+densities and sizes, including compact spherical clusters, elongated structures, and
+low-density groups).</em></sub>
 </p>
 
 <p align="center">
   <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
-  <em>Figure 2. Clustering comparison: K-Means (left) vs. K-Sil (right).</em>
+  <em>Fig 2. Clustering comparison: K-Means (left) vs. K-Sil (right).</em>
 </p>
 
 
