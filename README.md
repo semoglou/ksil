@@ -145,6 +145,9 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 ## Clustering Performance
 
+K-Sil demonstrates consistent and statistically significant improvements over *k*-means in clustering quality,
+as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets. 
+
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
