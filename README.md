@@ -147,7 +147,10 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 K-Sil demonstrates consistent and statistically significant improvements over *k*-means in clustering quality,
 as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets. 
-Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.
+Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.  
+K-Sil’s most substantial improvements occur for the *macro*-averaged silhouette score when also configured to prioritize this objective.
+Its per-cluster weighting mechanism amplifies high-confidence points within each cluster, naturally aligning with the *macro* objective’s emphasis on cluster level quality.
+This makes K-Sil particularly effective for detecting subtle patterns, preserving minority groups, and ensuring fair representation in heterogeneous data.
 
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
