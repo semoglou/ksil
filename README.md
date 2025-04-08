@@ -156,11 +156,11 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 <p align="center">
   <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
-  <em>
+  <sub><em>
     Fig 2. Cluster assignments produced by K-Means (left) and K-Sil (right) on the same synthetic dataset.<br/>
     Both algorithms were initialized with identical centroids (final centroids shown in red).<br/>
     For K-Sil, <code>silhouette_objective="macro"</code> and weight <code>sensitivity=1</code> (no grid search applied).
-  </em>
+  </em></sub>
 </p>
 
 #
