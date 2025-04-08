@@ -146,7 +146,7 @@ For a detailed example exploring additional aspects such as sampling and approxi
 ## Clustering Performance
 
 K-Sil demonstrates consistent and statistically significant improvements over *k*-means in clustering quality,
-as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets. 
+as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets.
 Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.  
 K-Sil’s most substantial improvements occur for the *Macro*-averaged Silhouette score when also configured to prioritize this objective.
 By design, its cluster-centric weighting strategy, which emphasizes well-clustered instances and de-emphasizes uncertain ones within each cluster, 
