@@ -149,19 +149,20 @@ For a detailed example exploring additional aspects such as sampling and approxi
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
     Fig 1. Ground truth structure of the synthetic dataset.<br/>
-    The data consists of six clusters with varying densities and shapes —<br/>
+    The data consists of six clusters with varying densities and shapes, <br/>
     including compact blobs, elongated structures, and low-density groups.
   </em></sub>
 </p>
 
-
 <p align="center">
   <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
-  <em>Fig 2. Clustering comparison: K-Means (left) vs. K-Sil (right).</em>
+  <em>
+    Fig 2. Cluster assignments produced by K-Means (left) and K-Sil (right) on the same synthetic dataset.<br/>
+    Both algorithms were initialized with identical centroids (final centroids shown in red).<br/>
+    For K-Sil, <code>silhouette_objective="macro"</code> and weight <code>sensitivity=1</code> (no grid search applied).
+  </em>
 </p>
-
 
 #
 
 <p align="center"><sub>K-Sil Clustering Algorithm · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
-
