@@ -171,6 +171,10 @@ This makes K-Sil particularly effective for detecting subtle patterns, preservin
   </em></sub>
 </p>
 
+For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
+and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`results/`](analysis/) folder, 
+particularly [`ksil_performance notebook`](./analysis/ksil_performance.ipynb).
+
 #
 
 <p align="center"><sub>K-Sil Clustering Algorithm · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
