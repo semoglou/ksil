@@ -174,7 +174,7 @@ and ensuring fair representation in heterogeneous data (e.g., in customer segmen
 
 For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
 and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
-particularly [`ksil_performance.ipynb`](./analysis/ksil_performance.ipynb).
+particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 
 #
 
