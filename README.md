@@ -152,7 +152,7 @@ K-Sil’s most substantial improvements occur for the *Macro*-averaged Silhouett
 By design, its cluster-centric weighting strategy, which emphasizes well-clustered instances and de-emphasizes uncertain ones within each cluster, 
 naturally aligns with the macro objective’s focus on cluster-level quality.
 This makes K-Sil particularly effective for detecting subtle patterns (e.g., in biological data), preserving minority groups (e.g., in medical diagnostics or fraud detection),
-and ensuring fair representation in heterogeneous data (e.g., in customer segmentation or demographic studies).
+and ensuring fair representation in heterogeneous data (e.g., in customer or demographic segmentation).
 
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
