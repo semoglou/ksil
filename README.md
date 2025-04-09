@@ -43,7 +43,7 @@ The following **parameters** can be set when initializing a `KSil` model:
 | `sample_size`          | int / float     | `-1`         | Sample size: `-1` (full), fraction (0–1), or fixed count                      |
 | `weighting`            | str             | `"power"`    | `"power"` or `"exponential"` weighting scheme                                 |
 | `sensitivity`          | float / str     | `"auto"`     | Weight contrast: float or `"auto"` (grid search)                              |
-| `alpha`                | float           | `0.5`        | Macro/micro tradeoff (only used if the objective is `"convex"`)               |
+| `alpha`                | float           | `0.5`        | Macro/micro tradeoff (used if the objective=`"convex"`)                       |
 | `tol`                  | float           | `1e-4`       | Convergence threshold based on centroid movement                              |
 | `n_jobs`               | int             | `-1`         | Number of parallel jobs (`-1` for all available cores)                        |
 
