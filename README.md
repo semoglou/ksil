@@ -25,6 +25,12 @@ For *Spearman Rank* correlation analysis with the exact point-level silhouette s
 Silhouette computation methods, including the approximations and appropriate sampling, are also available independently in [silhouette_methods.ipynb](analysis/silhouette_methods.ipynb) for flexible use outside the main K-Sil pipeline.
 
 ### Instance Weighting
+K-Sil supports two alternative instance-weighting schemes based on silhouette scores—Power and Exponential—each suited to different cluster characteristics.
+The Power scheme uses absolute silhouette scores within each cluster, shifted by the minimum and scaled by the cluster's median silhouette.
+This approach emphasizes score differences directly and works well in homogeneous clusters, where well-clustered points are clearly distinguishable.
+The Exponential scheme assigns weights based on the (dense) rank of each point’s silhouette score within its cluster, where higher silhouette scores receive lower (better) ranks.
+The decay is centered around the median rank, and the rank differences are normalized to the maximum rank in the cluster, making the weighting contrast cluster-relative and scale-independent.
+Because it relies on ordering rather than raw scores, this scheme is more robust in heterogeneous clusters and naturally compatible with silhouette approximation methods.
 
 
 ## Installation
