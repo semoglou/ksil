@@ -11,6 +11,7 @@ or their combination, allowing flexible emphasis during clustering, while mainta
 </p>
 
 ## Key Components
+
 ### Silhouette Computation
 Since K-Sil computes silhouette scores for all points at each iteration to guide instance weighting, it incorporates several mechanisms to ensure scalability to large datasets without compromising clustering quality. 
 It employs adaptive sampling strategies that align with the selected silhouette aggregation objective: 
@@ -23,6 +24,7 @@ The refined approximation shows stronger alignment with the true silhouette dist
 For *Spearman Rank* correlation analysis with the exact point-level silhouette scores, along with comparisons of dataset-level silhouette values, see the analysis in [silhouette_approx.ipynb](analysis/silhouette_approx.ipynb). 
 Silhouette computation methods, including the approximations and appropriate sampling, are also available independently in [silhouette_methods.ipynb](analysis/silhouette_methods.ipynb) for flexible use outside the main K-Sil pipeline.
 
+### Instance Weighting
 
 
 ## Installation
