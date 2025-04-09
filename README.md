@@ -4,7 +4,7 @@ Unlike classic *k*-means, which treats all points equally, K-Sil dynamically wei
 effectively increasing the influence of well-clustered, high-confidence regions on centroid updates, while suppressing the impact of outliers and noisy or unreliable instances. 
 As a result, K-Sil reduces sensitivity to poor centroid initialization and yields clustering partitions that are both more accurate in capturing intrinsic data patterns and more resilient to noise, outliers, overlapping groups, and cluster imbalances.
 It supports silhouette-based objectives, such as *Macro*-averaged Silhouette (cluster-level), *Micro*-averaged (point-level),
-or their combination, allowing flexible emphasis during clustering, while maintaining scalability through objective-aware sampling and efficient silhouette approximations.
+or their combination, enabling flexible emphasis during clustering and maintaining scalability through objective-aware sampling and efficient silhouette approximations.
 
 <p align="center">
   <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/><br/>
