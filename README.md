@@ -37,7 +37,11 @@ Because it relies on ordering rather than raw scores, this scheme is more robust
 Both weighting schemes are controlled by a **sensitivity** parameter, which adjusts the contrast between high and low confidence/quality points relative to the median silhouette in each cluster. 
 Higher sensitivity values amplify weighting contrast, placing greater emphasis on well-clustered points and downweighting low-silhouette ones, while lower values soften distinctions, preserving influence from ambiguous instances. 
 This parameter can be manually specified or auto-tuned via parallel coarse grid search to maximize the selected silhouette objective (*macro*, *micro*, or a combination). 
-
+  
+After weighting, each cluster's centroid is updated as the weighted average of its member points, moving toward high silhouette regions.
+If a cluster becomes empty when reassigning points, K-Sil re-initializes it by selecting the point from the largest cluster (by size) that is farthest from its centroid.
+K-Sil converges when the average centroid movement falls below a small threshold, typically sufficient for stable clustering. A maximum iteration limit also exists as a practical safeguard, though it is rarely reached in practice.
+Among all iterations, the clustering configuration (centroids and labels) that achieved the highest silhouette objective is retained.
 
 ## Installation
 
