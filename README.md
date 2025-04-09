@@ -147,13 +147,15 @@ For a detailed example exploring additional aspects such as sampling and approxi
 
 K-Sil demonstrates consistent and statistically significant improvements over *k*-means in clustering quality,
 as measured by silhouette scores (both *macro* and *micro*) across synthetic and real world datasets.
-Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation. 
+Higher Normalized Mutual Information (NMI) scores are also observed on synthetic datasets, where ground truth labels allow for such evaluation.   
 K-Sil’s most substantial improvements occur for the *Macro*-averaged Silhouette score when also configured to prioritize this objective.
 By design, its cluster-centric weighting strategy, which emphasizes well-clustered instances and de-emphasizes uncertain ones within each cluster, 
 naturally aligns with the macro objective’s focus on cluster-level quality.
 This makes K-Sil particularly effective for detecting subtle patterns, preserving minority groups,
-and ensuring fair representation in heterogeneous data.
-
+and ensuring fair representation in heterogeneous data.  
+For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
+and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
+particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
@@ -168,10 +170,6 @@ and ensuring fair representation in heterogeneous data.
     For K-Sil, <code>silhouette_objective="macro"</code>, <code>sensitivity=1</code> (no <code>"auto"</code> grid search applied).
   </em></sub>
 </p>
-
-For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
-and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
-particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 
 #
 
