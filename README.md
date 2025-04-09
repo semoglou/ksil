@@ -192,8 +192,9 @@ particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 <p align="center">
   <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
   <sub><em>
-    Cluster assignments by K-Means (left) and K-Sil (right), both initialized with the same centroids (final centroids: ❌).<br/>
-    For K-Sil, <code>silhouette_objective="macro"</code>, <code>sensitivity=1</code> (no <code>"auto"</code> grid search applied).
+    Cluster assignments by K-Means (left) and K-Sil (right), both initialized with the same centroids.<br/>
+    K-Sil configured with <code>silhouette_objective="macro"</code>, <code>sensitivity=1</code> (no <code>"auto"</code> grid search applied).<br/>
+    Final cluster centroids marked in red <code><strong>X</strong></code>.
   </em></sub>
 </p>
 
