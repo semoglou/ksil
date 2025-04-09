@@ -157,9 +157,7 @@ and ensuring fair representation in heterogeneous data (e.g., in customer segmen
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
-    Ground truth structure of the synthetic dataset.<br/>
-    The data consists of six clusters with varying densities and shapes, <br/>
-    including compact blobs, elongated structures, and low-density groups.
+    Ground truth structure of a synthetic dataset with varied cluster shapes and densities.
   </em></sub>
 </p>
 
