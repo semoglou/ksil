@@ -41,7 +41,7 @@ This parameter can be manually specified or auto-tuned via parallel coarse grid 
 After weighting, each cluster's centroid is updated as the weighted average of its member points, moving toward high silhouette regions.
 If a cluster becomes empty when reassigning points, K-Sil re-initializes it by selecting the point from the largest cluster (by size) that is farthest from its centroid.
 K-Sil converges when the average centroid movement falls below a small threshold, typically sufficient for stable clustering. A maximum iteration limit also exists as a practical safeguard, though it is rarely reached in practice.
-Among all iterations, the clustering configuration (centroids and labels) that achieved the highest silhouette objective is retained.
+The final output corresponds to the clustering configuration (centroids and labels) that achieved the highest silhouette (objective) score during the run.
 
 ## Installation
 
