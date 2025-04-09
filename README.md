@@ -7,7 +7,7 @@ It supports silhouette-based objectives, such as *Macro*-averaged Silhouette (cl
 or their combination, allowing flexible emphasis during clustering, while maintaining scalability through objective-aware sampling and efficient silhouette approximations.
 
 <p align="center">
-  <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/>
+  <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/><br/>
   <sub><em>
     K-Sil’s iterative centroid updates guided by silhouette-based weighting until convergence.
   </em></sub>
