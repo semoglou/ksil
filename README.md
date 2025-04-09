@@ -10,7 +10,8 @@ or their combination, allowing flexible emphasis during clustering, while mainta
   <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/>
 </p>
 
-## Overview
+## Key Components
+
 
 ## Installation
 
