@@ -8,7 +8,9 @@ or their combination, allowing flexible emphasis during clustering, while mainta
 
 <p align="center">
   <img src="demo/ksil_g.gif" alt="K-Sil Demo" width="500"/>
-  <sub><em>K-Sil’s iterative centroid updates guided by silhouette-based weighting until convergence.</em></sub>
+  <sub><em>
+    K-Sil’s iterative centroid updates guided by silhouette-based weighting until convergence.
+  </em></sub>
 </p>
 
 ## Key Components
