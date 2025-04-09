@@ -173,7 +173,7 @@ particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 <p align="center">
   <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
-    Synthetic dataset with varied cluster shapes and densities.
+    Synthetic data with varied cluster shapes and densities.
   </em></sub>
 </p>
 
