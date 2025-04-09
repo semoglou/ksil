@@ -11,6 +11,11 @@ or their combination, allowing flexible emphasis during clustering, while mainta
 </p>
 
 ## Key Components
+### Silhouette Computation
+Since K-Sil computes silhouette scores for all points at each iteration to guide instance weighting, it incorporates several mechanisms to ensure scalability to large datasets without compromising clustering quality. 
+It employs adaptive sampling strategies that align with the selected silhouette aggregation objective: 
+when using the *Macro*-averaged Silhouette (the per-cluster average silhouette score), K-Sil samples uniformly within each cluster to ensure balanced representation,
+while for *Micro*-averaged (the overall average score across all data points), it applies uniform sampling over the entire dataset. 
 
 
 ## Installation
