@@ -198,6 +198,10 @@ particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
   </em></sub>
 </p>
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 #
 
 <p align="center"><sub>K-Sil Clustering Algorithm · v0.1.0 · Last updated: 04/2025 · MIT License</sub></p>
