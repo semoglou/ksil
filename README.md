@@ -32,8 +32,8 @@ The Exponential scheme assigns weights based on the (dense) rank of each pointâ€
 The decay is centered around the median rank, and the rank differences are normalized to the maximum rank in the cluster, making the weighting contrast cluster-relative and scale-independent.
 Because it relies on ordering rather than raw scores, this scheme is more robust in heterogeneous clusters and naturally compatible with silhouette approximations.  
 Both weighting schemes are controlled by a **sensitivity** parameter, which adjusts the contrast between high and low confidence/quality points relative to the median silhouette in each cluster. 
-Higher sensitivity values amplify the weighting contrast, giving stronger emphasis to well clustered points, while lower values soften the weighting difference, preserving influence from more amiguous instances. 
-The parameter can be manually specified or auto-tuned via parallel coarse gridsearch to maximize the selected silhouette objective (*macro*, *micro*, or a combination). 
+Higher sensitivity values amplify weighting contrast, placing greater emphasis on well-clustered points and downweighting low-silhouette ones, while lower values soften distinctions, preserving influence from more ambiguous instances. 
+This parameter can be manually specified or auto-tuned via parallel coarse gridsearch to maximize the selected silhouette objective (*macro*, *micro*, or a combination). 
 
 
 ## Installation
