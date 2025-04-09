@@ -30,7 +30,7 @@ The Power scheme uses absolute silhouette scores within each cluster, shifted by
 This approach emphasizes score differences directly and works well in homogeneous clusters, where well-clustered points are clearly distinguishable.
 The Exponential scheme assigns weights based on the (dense) rank of each point’s silhouette score within its cluster, where higher silhouette scores receive lower (better) ranks.
 The decay is centered around the median rank, and the rank differences are normalized to the maximum rank in the cluster, making the weighting contrast cluster-relative and scale-independent.
-Because it relies on ordering rather than raw scores, this scheme is more robust in heterogeneous clusters and naturally compatible with silhouette approximations.  
+Because it relies on ordering rather than raw scores, this scheme is more robust in heterogeneous clusters and naturally compatible with silhouette approximations. 
 Both weighting schemes are controlled by a **sensitivity** parameter, which adjusts the contrast between high and low confidence/quality points relative to the median silhouette in each cluster. 
 Higher sensitivity values amplify weighting contrast, placing greater emphasis on well-clustered points and downweighting low-silhouette ones, while lower values soften distinctions, preserving influence from more ambiguous instances. 
 This parameter can be manually specified or auto-tuned via parallel coarse gridsearch to maximize the selected silhouette objective (*macro*, *micro*, or a combination). 
