@@ -20,7 +20,7 @@ Additionally, to avoid the computational overhead of pairwise distance calculati
 For each point, intra- and inter-cluster distances are estimated using centroid distances along with within-cluster dispersion (sum of squares), yielding more accurate approximations than standard centroid-based heuristics.
 Although absolute values may slightly differ from exact silhouettes, the relative rankings remain highly consistent.
 The refined approximation shows stronger alignment with the true silhouette distribution, both at the point level and in aggregated metrics, outperforming simpler proxies.
-For *Spearman Rank* correlation analysis with the exact point-level silhouette scores, along with comparisons of dataset-level silhouette values, see the analysis in [silhouette_approx.ipynb](analysis/silhouette_approx.ipynb. 
+For *Spearman Rank* correlation analysis with the exact point-level silhouette scores, along with comparisons of dataset-level silhouette values, see the analysis in [silhouette_approx.ipynb](analysis/silhouette_approx.ipynb). 
 Silhouette computation methods, including the approximations and appropriate sampling, are also available independently in [silhouette_methods.ipynb](analysis/silhouette_methods.ipynb) for flexible use outside the main K-Sil pipeline.
 
 
