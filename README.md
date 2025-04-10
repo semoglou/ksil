@@ -185,6 +185,7 @@ This makes K-Sil particularly effective for detecting subtle patterns, preservin
 and ensuring fair representation in heterogeneous data.  
 > **Note:** While silhouette-based weighting improves clustering quality, the algorithm remains sensitive to initial centroid selection.
 >  It is therefore recommended to perform multiple initializations (e.g., with different `random_state` values) and select the best run based on the silhouette objective for improved stability.
+
 For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
 and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
 particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
