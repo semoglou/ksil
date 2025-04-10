@@ -183,8 +183,9 @@ By design, its cluster-centric weighting strategy, which emphasizes well-cluster
 naturally aligns with the macro objective’s focus on cluster-level quality.
 This makes K-Sil particularly effective for detecting subtle patterns, preserving minority groups,
 and ensuring fair representation in heterogeneous data.  
-> **Note:** While silhouette-based weighting improves clustering quality, the algorithm remains sensitive to initial centroid selection.
->  It is therefore recommended to perform multiple initializations (e.g., with different `random_state` values) and select the best run based on the silhouette objective for improved stability.
+> **Note:** Although K-Sil improves clustering quality by integrating silhouette-based weighting, it can still be influenced by the initial placement of centroids.
+>  To improve stability and consistency, it’s recommended to run the algorithm multiple times with different initializations (`random_state` values) and select the result with the best silhouette (objective) score.
+
 
 For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
 and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
