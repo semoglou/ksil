@@ -19,7 +19,7 @@ or their combination, enabling flexible emphasis during clustering and maintaini
 Since K-Sil computes silhouette scores for all points at each iteration to guide instance weighting, it incorporates several mechanisms to ensure scalability to large datasets without compromising clustering quality. 
 It employs adaptive sampling strategies that align with the selected silhouette aggregation objective: 
 when using the *Macro*-averaged Silhouette (the per-cluster average silhouette score), K-Sil samples uniformly within each cluster to ensure balanced representation,
-while for the *Micro*-averaged (the overall average score across all data points), it samples uniformly from the entire dataset. For further information on silhouette aggregation and appropriate sampling, see the [Revisiting Silhouette Aggregation](https://github.com/ipavlopoulos/revisiting-silhouette-aggregation) repository by I. Pavlopoulos.
+while for the *Micro*-averaged (the overall average score across all data points), it samples uniformly from the entire dataset. 
 Additionally, to avoid the computational overhead of pairwise distance calculations, K-Sil provides an approximate silhouette option.
 For each point, intra- and inter-cluster distances are estimated using centroid distances along with within-cluster dispersion (sum of squares), yielding more accurate approximations than standard centroid-based heuristics.
 Although absolute values may slightly differ from exact silhouettes, the relative rankings remain highly consistent.
@@ -45,13 +45,13 @@ The final output (centroids, labels) corresponds to the partition that achieved 
 
 ## Installation
 
-You can install **K-Sil** from PyPI:
+**K-Sil** will be available on PyPI soon:
 
 ```bash
 pip install ksil
 ```
 
-or directly from the GitHub repository:
+Install directly from the GitHub repository:
 
 ```bash
 pip install git+https://github.com/semoglou/ksil.git
