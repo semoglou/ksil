@@ -14,7 +14,7 @@ setup(
     python_requires=">=3.8",
     description="K-Sil Clustering: Silhouette-Guided Weighted K-Means",
     url="https://github.com/semoglou/ksil",
-    author="Anonymous",
+    author="Semoglou",
     author_email="a.semoglou@outlook.com",
     license="MIT"
 )
