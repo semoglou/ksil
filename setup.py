@@ -12,7 +12,7 @@ setup(
         "joblib>=1.4.2"
     ],
     python_requires=">=3.8",
-    description="K-Sil Clustering: Silhouette-Guided Weighted K-Means",
+    description="K-Sil Clustering: Silhouette-Guided Instance-Weighted K-Means",
     url="https://github.com/semoglou/ksil",
     author="Angelos Semoglou",
     author_email="a.semoglou@outlook.com",
