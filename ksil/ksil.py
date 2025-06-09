@@ -1037,7 +1037,7 @@ class KSil:
 
         return self.transform(X)
 
-class sphericalKSil:
+class SphericalKSil:
     """
     Spherical K-Sil:
     This is the spherical variant of the K-Sil clustering algorithm, that operates on the unit hypersphere.
