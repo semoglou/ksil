@@ -139,8 +139,8 @@ print(f"Cluster Centroids:\n {centroids}")
 Output:
 ```
 Iterations: 2
-Cluster Centroids: [0 0 0 1 1 1]
-Cluster Labels:
+Cluster Labels: [0 0 0 1 1 1]
+Cluster Centroids:
 0    [1.5, 4.25]
 1    [3.5, 7.5]
 ```
