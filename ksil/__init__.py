@@ -1,1 +1,1 @@
-from .ksil import KSil
+from .ksil import KSil, sphericalKSil
