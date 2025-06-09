@@ -13,7 +13,7 @@ or their combination, enabling flexible emphasis during clustering and maintaini
   </em></sub>
 </p>
 
-## Key Components
+## K-Sil Components
 
 ### Silhouette Computation
 Since K-Sil computes silhouette scores for all points at each iteration to guide instance weighting, it incorporates several mechanisms to ensure scalability to large datasets without compromising clustering quality. 
