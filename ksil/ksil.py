@@ -1037,7 +1037,6 @@ class KSil:
 
         return self.transform(X)
 
-
 class sphericalKSil:
     """
     Spherical K-Sil:
