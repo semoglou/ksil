@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="k_sil",
+    name="k_silhouette",
     version="0.1.0",
     packages=find_packages(),
     install_requires=[
