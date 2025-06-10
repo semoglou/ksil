@@ -24,8 +24,8 @@ Additionally, to avoid the computational overhead of pairwise distance calculati
 For each point, intra- and inter-cluster distances are estimated using centroid distances along with within-cluster dispersion (sum of squares), yielding more accurate approximations than standard centroid-based heuristics.
 Although absolute values may slightly differ from exact silhouettes, the relative rankings remain highly consistent.
 The refined approximation shows stronger alignment with the true silhouette distribution, both at the point level and in aggregated metrics, outperforming simpler proxies.
-For *Spearman Rank* correlation analysis with the exact point-level silhouette scores, along with comparisons of dataset-level silhouette values, see the analysis in [silhouette_approx.ipynb](analysis/silhouette_approx.ipynb). 
-Silhouette computation methods, including the approximations and appropriate sampling, are also available independently in [silhouette_methods.ipynb](analysis/silhouette_methods.ipynb) for flexible use outside the main K-Sil pipeline.
+For *Spearman Rank* correlation analysis with the exact point-level silhouette scores, along with comparisons of dataset-level silhouette values, see the analysis in [silhouette_approx.ipynb](https://github.com/semoglou/ksil/blob/main/analysis/silhouette_approx.ipynb). 
+Silhouette computation methods, including the approximations and appropriate sampling, are also available independently in [silhouette_methods.ipynb](https://github.com/semoglou/ksil/blob/main/analysis/silhouette_methods.py) for flexible use outside the main K-Sil pipeline.
 
 ### Instance Weighting
 K-Sil supports two alternative instance-weighting schemes based on silhouette scores—Power and Exponential—each suited to different cluster characteristics.
@@ -175,7 +175,7 @@ Transformed New Data (Distances to Centroids):
 [[1.3462912  4.74341649]
  [2.61007663 2.54950976]]
 ```
-For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](./analysis/functionality.ipynb).
+For a detailed example exploring additional aspects such as sampling and approximations, check out this [notebook](https://github.com/semoglou/ksil/blob/main/analysis/functionality.ipynb).
 
 ## Clustering Performance
 
@@ -193,16 +193,16 @@ and ensuring fair representation in heterogeneous data.
 
 For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, including statistical comparisons, performance benchmarks,
 and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
-particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
+particularly [ksil_performance.ipynb](https://github.com/semoglou/ksil/blob/main/analysis/ksil_performance.ipynb).
 <p align="center">
-  <img src="demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
+  <img src="https://github.com/semoglou/ksil/blob/main/demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
     Synthetic data with varied cluster shapes and densities.
   </em></sub>
 </p>
 
 <p align="center">
-  <img src="demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
+  <img src="https://github.com/semoglou/ksil/blob/main/demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
   <sub><em>
     Cluster assignments by K-Means (left) and K-Sil (right), both initialized with the same centroids.<br/>
     K-Sil configured with <code>silhouette_objective="macro"</code>, <code>sensitivity=1</code> (no <code>"auto"</code> grid search applied).<br/>
@@ -212,4 +212,4 @@ particularly [ksil_performance.ipynb](./analysis/ksil_performance.ipynb).
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](https://github.com/semoglou/ksil/blob/main/LICENSE).
