@@ -45,13 +45,13 @@ The final output (centroids, labels) corresponds to the partition that achieved 
 
 ## Installation
 
-**K-Sil** will be available on PyPI soon:
+You can install **K-Sil** from [PyPI](https://pypi.org/project/k-silhouette/):
 
 ```bash
-pip install ksil
+pip install k-silhouette
 ```
 
-Install directly from the GitHub repository:
+or directly from the GitHub repository:
 
 ```bash
 pip install git+https://github.com/semoglou/ksil.git
