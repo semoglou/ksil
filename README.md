@@ -210,6 +210,10 @@ particularly [ksil_performance.ipynb](https://github.com/semoglou/ksil/blob/main
   </em></sub>
 </p>
 
+## Spherical Variant
+In addition to the standard K-Sil algorithm, **Spherical K-Sil** is tailored for data where vector direction matters more than magnitude, such as text or document embeddings, by operating directly on the unit hypersphere. This extension maintains angular relationships and delivers clustering results aligned with cosine-based similarity, all while leveraging efficient Euclidean computations on normalized vectors. 
+It uses the same parameters as standard K-Sil and can be imported as: 
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/semoglou/ksil/blob/main/LICENSE).
