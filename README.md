@@ -7,7 +7,7 @@ It supports silhouette-based objectives, such as *Macro*-averaged Silhouette (cl
 or their combination, enabling flexible emphasis during clustering and maintaining scalability through objective-aware sampling and efficient silhouette approximations.
 
 <p align="center">
-  <img src="https://github.com/semoglou/ksil/blob/main/demo/ksil_g.gif" alt="K-Sil Demo" width="500"/><br/>
+  <img src="https://raw.githubusercontent.com/semoglou/ksil/main/demo/ksil_g.gif" alt="K-Sil Demo" width="500"/><br/>
   <sub><em>
     K-Sil’s iterative centroid updates guided by silhouette-based weighting until convergence.
   </em></sub>
@@ -195,14 +195,14 @@ For a comprehensive evaluation of K-Sil on synthetic and real-world datasets, in
 and detailed results on *macro*-/*micro*-averaged silhouette and NMI, see the notebooks in the [`analysis/`](analysis/) folder, 
 particularly [ksil_performance.ipynb](https://github.com/semoglou/ksil/blob/main/analysis/ksil_performance.ipynb).
 <p align="center">
-  <img src="https://github.com/semoglou/ksil/blob/main/demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
+  <img src="https://raw.githubusercontent.com/semoglou/ksil/main/demo/synthtruelabels.png" alt="Ground Truth Clusters" width="300"/><br/>
   <sub><em>
     Synthetic data with varied cluster shapes and densities.
   </em></sub>
 </p>
 
 <p align="center">
-  <img src="https://github.com/semoglou/ksil/blob/main/demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
+  <img src="https://raw.githubusercontent.com/semoglou/ksil/main/demo/kmvsksclusters.png" alt="KMeans vs KSil Clusters" width="600"/><br/>
   <sub><em>
     Cluster assignments by K-Means (left) and K-Sil (right), both initialized with the same centroids.<br/>
     K-Sil configured with <code>silhouette_objective="macro"</code>, <code>sensitivity=1</code> (no <code>"auto"</code> grid search applied).<br/>
