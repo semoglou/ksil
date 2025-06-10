@@ -98,9 +98,13 @@ After fitting the model, the following **attributes** are available:
 | `n_iter_`           | Number of iterations until convergence                          |
 
 ## Quick Start
-#### Fit K-Sil and Retrieve Cluster Labels & Centroids
+
 ```python
 from ksil import KSil
+```
+
+#### Fit K-Sil and Retrieve Cluster Labels & Centroids
+```python
 import numpy as np
 
 # Example dataset
