@@ -217,6 +217,20 @@ All K-Sil parameters apply, and it can be imported with:
 from ksil import SphericalKSil
 ```
 
+## Citation
+For a preprint see [https://arxiv.org/abs/2506.12878](https://arxiv.org/abs/2506.12878) and to cite us, please use the following:  
+```
+@misc{semoglou2025silhouetteguidedinstanceweightedkmeans,
+      title={Silhouette-Guided Instance-Weighted k-means}, 
+      author={Aggelos Semoglou and Aristidis Likas and John Pavlopoulos},
+      year={2025},
+      eprint={2506.12878},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.12878}, 
+}
+```
+
 ## License
 
 This project is licensed under the [MIT License](https://github.com/semoglou/ksil/blob/main/LICENSE).
